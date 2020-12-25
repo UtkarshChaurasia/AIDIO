@@ -1,5 +1,6 @@
 import 'package:AIDIO/model/radio.dart';
 import 'package:AIDIO/utils/ai_util.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   fetchRadio() async {
     final radiojson = await rootBundle.loadString("assets/radio.json");
     radios = MyRadioList.fromJson(radiojson).radios;
+    setState(() {});
     setState(() {});
   }
 

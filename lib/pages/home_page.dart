@@ -13,11 +13,25 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   List<MyRadio> radios;
+  MyRadio _selectedRadio;
+  Color _selectedColor;
+  bool _isPlaying = false;
+
+  final AudioPlayer _audioPlayer = AudioPlayer();
 
   @override
   void initState() {
     super.initState();
     fetchRadio();
+
+    _audioPlayer.onPlayerStateChanged.listen((event) {
+      if (event == AudioPlayerState.PLAYING) {
+        _isPlaying = true;
+      } else {
+        _isPlaying = false;
+      }
+      setState(() {});
+    });
   }
 
   fetchRadio() async {
@@ -25,6 +39,12 @@ class _HomePageState extends State<HomePage> {
     radios = MyRadioList.fromJson(radiojson).radios;
     setState(() {});
     setState(() {});
+  }
+
+  _playMusic(String url) {
+    _audioPlayer.play(url);
+    _selectedRadio = radios.firstWhere((element) => element.url == url);
+    print(_selectedRadio.name);
   }
 
   Widget build(BuildContext context) {

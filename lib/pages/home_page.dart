@@ -56,8 +56,8 @@ class _HomePageState extends State<HomePage> {
               .size(context.screenWidth, context.screenHeight)
               .withGradient(
                 LinearGradient(colors: [
-                  AIColors.primaryColor1,
                   AIColors.primaryColor2,
+                  _selectedColor ?? AIColors.primaryColor1,
                 ], begin: Alignment.topLeft, end: Alignment.bottomRight),
               )
               .make(),
@@ -73,6 +73,11 @@ class _HomePageState extends State<HomePage> {
                   itemCount: radios.length,
                   aspectRatio: 1.0,
                   enlargeCenterPage: true,
+                  onPageChanged: (index) {
+                    final colorHex = radios[index].color;
+                    _selectedColor = Color(int.tryParse(colorHex));
+                    setState(() {});
+                  },
                   itemBuilder: (context, index) {
                     final rad = radios[index];
 

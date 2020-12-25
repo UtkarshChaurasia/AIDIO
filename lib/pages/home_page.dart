@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:alan_voice/alan_voice.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -22,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    setupAlan();
     fetchRadio();
 
     _audioPlayer.onPlayerStateChanged.listen((event) {
@@ -32,6 +34,12 @@ class _HomePageState extends State<HomePage> {
       }
       setState(() {});
     });
+  }
+
+  setupAlan() {
+    AlanVoice.addButton(
+        "58ed963df3334417ab028a034dc8e0252e956eca572e1d8b807a3e2338fdd0dc/stage",
+        buttonAlign: AlanVoice.BUTTON_ALIGN_LEFT);
   }
 
   fetchRadio() async {
@@ -62,8 +70,8 @@ class _HomePageState extends State<HomePage> {
               )
               .make(),
           AppBar(
-            title: "A I D I O".text.xl4.size(17).bold.white.make().shimmer(
-                primaryColor: Vx.purple500, secondaryColor: Colors.white),
+            title: "A I D I O".text.xl4.size(20).bold.white.make().shimmer(
+                primaryColor: Vx.orange500, secondaryColor: Colors.white),
             backgroundColor: Colors.transparent,
             elevation: 0.0,
             centerTitle: true,
@@ -147,6 +155,7 @@ class _HomePageState extends State<HomePage> {
                     if (_isPlaying)
                       "Playing Now - ${_selectedRadio.name} FM"
                           .text
+                          .white
                           .makeCentered(),
                     Icon(
                       _isPlaying

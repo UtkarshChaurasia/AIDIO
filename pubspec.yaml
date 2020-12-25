@@ -20,6 +20,9 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+
+
+
 dependencies:
   flutter:
     sdk: flutter
@@ -27,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   google_fonts: ^1.1.1
   velocity_x: ^1.0.1
+  alan_voice: ^2.0.11
 
 dev_dependencies:
   flutter_test:

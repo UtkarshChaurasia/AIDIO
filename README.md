@@ -34,7 +34,7 @@ AI-powered Voice Controlled Radio App.
 
 ---
 
-## :heart: Found this project useful?
+## :heart: Found this project interesting?
 
 If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
 
@@ -42,8 +42,7 @@ If you found this project useful, then please consider giving it a :star: on Git
 
 ## Project Created & Maintained By
 
-<li>
-<img src = "https://avatars2.githubusercontent.com/u/47274683?s=460&u=d0f1b40291f480413ce4ac9a96b6d4603289844e&v=4"  height="120" alt=""> Utkarsh Chaurasia
+<img src = "https://avatars2.githubusercontent.com/u/47274683?s=460&u=d0f1b40291f480413ce4ac9a96b6d4603289844e&v=4"  height="120" alt=""> <br>Utkarsh Chaurasia
 <p>
 <a href = "https://github.com/UtkarshChaurasia"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
 <a href = "https://www.linkedin.com/in/utkarshchaurasia/">

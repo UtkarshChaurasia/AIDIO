@@ -70,22 +70,9 @@
                "disliked": false,
                "order": 5
            },
+           
            {
                "id": 6,
-               "name": "94",
-               "tagline": "Today's Hits",
-               "color": "0xff27383e",
-               "desc": "",
-               "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/977_HITS.mp3",
-               "icon": "https://static.radio.net/images/broadcasts/8d/76/3600/1/c175.png",
-               "image": "https://i.ytimg.com/vi/BUnPVjqb0YY/maxresdefault.jpg",
-               "lang": "English",
-               "category": "rock",
-               "disliked": false,
-               "order": 6
-           },
-           {
-               "id": 7,
                "name": "93",
                "tagline": "Love Songs",
                "color": "0xffa06a37",
@@ -96,10 +83,10 @@
                "lang": "Hindi",
                "category": "pop",
                "disliked": false,
-               "order": 7
+               "order": 6
            },
            {
-               "id": 8,
+               "id": 7,
                "name": "107",
                "tagline": "Rocking Retro Hits",
                "color": "0xff090909",
@@ -110,7 +97,7 @@
                "lang": "Hindi",
                "category": "classic",
                "disliked": false,
-               "order": 8
+               "order": 7
            }
    ]
    

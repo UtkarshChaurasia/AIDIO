@@ -16,6 +16,7 @@ class AIDIO extends StatelessWidget {
       title: "AIDIO",
       theme: ThemeData(fontFamily: GoogleFonts.poppins().fontFamily),
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

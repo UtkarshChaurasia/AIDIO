@@ -1,6 +1,6 @@
 # AIDIO
 
-A new Flutter project.
+AI-powered Voice Controlled Radio App.
 
 ## Getting Started
 

@@ -2,15 +2,51 @@
 
 AI-powered Voice Controlled Radio App.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Beautiful UI.
+- Radio Channels and Musics of different genres, on voice command away.
+- Integrated ALAN voice assistant.
+- Navigation through voice commands.
+- Music of specific genre can be played.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+---
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Built Using
+
+- [**FLUTTER**](https://flutter.dev/)
+- [**VELOCITY X**](https://velocityx.dev/)
+- [**ALAN AI**](https://alan.app/)
+
+---
+
+## Screenshots
+
+|                                      |                                      |
+| ------------------------------------ | ------------------------------------ |
+| <img src="images/11.jpg"  width="300"/> | <img src="images/2.jpg"  width="300"/> |
+| <img src="images/6.jpg" width="300"/>  | <img src="images/5.jpg" width="300"/>  |
+| <img src="images/3.jpg" width="300"/>  |  <img src="images/8.jpg" width="300"/>  |
+| <img src="images/4.jpg" width="300"/>  |  <img src="images/1.jpg" width="300"/>  |
+| <img src="images/9.jpg" width="300"/>  |  <img src="images/10.jpg" width="300"/>  |
+
+---
+
+## :heart: Found this project useful?
+
+If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+
+---
+
+## Project Created & Maintained By
+
+<li>
+<img src = "https://avatars2.githubusercontent.com/u/47274683?s=460&u=d0f1b40291f480413ce4ac9a96b6d4603289844e&v=4"  height="120" alt=""> Utkarsh Chaurasia
+<p>
+<a href = "https://github.com/UtkarshChaurasia"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
+<a href = "https://www.linkedin.com/in/utkarshchaurasia/">
+<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
+</a>
+</p>

@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> {
               ? [
                   100.heightBox,
                   "All Channels".text.xl.white.semiBold.make().px16(),
-                  20.heightBox,
+                  50.heightBox,
                   ListView(
                     padding: Vx.m0,
                     shrinkWrap: true,
@@ -164,13 +164,34 @@ class _HomePageState extends State<HomePage> {
                 ], begin: Alignment.topLeft, end: Alignment.bottomRight),
               )
               .make(),
-          AppBar(
-            title: "A I D I O".text.xl4.size(20).bold.white.make().shimmer(
-                primaryColor: Vx.orange500, secondaryColor: Colors.white),
-            backgroundColor: Colors.transparent,
-            elevation: 0.0,
-            centerTitle: true,
-          ).h(100.0).p32(),
+          [
+            AppBar(
+              title: "A I D I O".text.xl4.bold.size(17).white.make().shimmer(
+                  primaryColor: Vx.orange500, secondaryColor: Colors.white),
+              backgroundColor: Colors.transparent,
+              elevation: 0.0,
+              centerTitle: true,
+            ).h(60.0).p32(),
+            "Start with - Hey Alan 👇".text.italic.semiBold.white.make(),
+            20.heightBox,
+            VxSwiper.builder(
+              itemCount: sugg.length,
+              height: 40.0,
+              viewportFraction: 0.35,
+              autoPlay: true,
+              autoPlayAnimationDuration: 3.seconds,
+              autoPlayCurve: Curves.linear,
+              enableInfiniteScroll: true,
+              itemBuilder: (context, index) {
+                final s = sugg[index];
+                return Chip(
+                  label: s.text.make(),
+                  backgroundColor: Vx.randomColor,
+                );
+              },
+            )
+          ].vStack(alignment: MainAxisAlignment.start),
+          30.heightBox,
           radios != null
               ? VxSwiper.builder(
                   itemCount: radios.length,

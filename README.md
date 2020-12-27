@@ -1,10 +1,10 @@
-# AIDIO
+# :notes::speech_balloon: AIDIO
 
 AI-powered Voice Controlled Radio App.
 
 ---
 
-## Features
+## :fire: Features
 
 - Beautiful UI.
 - Radio Channels and Musics of different genres, one voice command away.
@@ -13,7 +13,7 @@ AI-powered Voice Controlled Radio App.
 
 ---
 
-## Built Using
+## :bulb: Built Using
 
 - [**FLUTTER**](https://flutter.dev/)
 - [**VELOCITY X**](https://velocityx.dev/)
@@ -21,7 +21,7 @@ AI-powered Voice Controlled Radio App.
 
 ---
 
-## Screenshots
+## :iphone: Screenshots
 
 |                                      |                                      |
 | ------------------------------------ | ------------------------------------ |
@@ -39,7 +39,7 @@ If you found this project useful, then please consider giving it a :star: on Git
 
 ---
 
-## Project Created & Maintained By
+## :man: Project Created & Maintained By
 
 <img src = "https://avatars2.githubusercontent.com/u/47274683?s=460&u=d0f1b40291f480413ce4ac9a96b6d4603289844e&v=4"  height="120" alt=""> <br>Utkarsh Chaurasia
 <p>

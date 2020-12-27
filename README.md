@@ -7,10 +7,9 @@ AI-powered Voice Controlled Radio App.
 ## Features
 
 - Beautiful UI.
-- Radio Channels and Musics of different genres, on voice command away.
-- Integrated ALAN voice assistant.
-- Navigation through voice commands.
-- Music of specific genre can be played.
+- Radio Channels and Musics of different genres, one voice command away.
+- ALAN voice assistant can play next, previous, specified FM channel or specified genre of music.
+- ALAN voice assistant interacts and can tell a joke, advice and entertains users by answering different questions.
 
 ---
 

@@ -123,7 +123,9 @@ class _HomePageState extends State<HomePage> {
   _playMusic(String url) {
     _audioPlayer.play(url);
     _selectedRadio = radios.firstWhere((element) => element.url == url);
+    _selectedColor = Color(int.tryParse(_selectedRadio.color));
     print(_selectedRadio.name);
+    setState(() {});
   }
 
   Widget build(BuildContext context) {
